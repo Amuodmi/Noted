@@ -24,6 +24,11 @@ GitHub Repo: https://github.com/Amuodmi/Noted
 
 Deployed website:  coming soon
 
+Soon to be depolyed website image:
+
+
+![Noted Screenshot](/Develop/public/assets/NotedScreenShot.png?raw=true "Noted")
+
 ## Contact
 
 Get in touch with me on Github
