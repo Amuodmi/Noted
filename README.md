@@ -27,7 +27,7 @@ Deployed website:  coming soon
 Soon to be depolyed website image:
 
 
-![Noted Screenshot](/Develop/public/assets/NotedScreenShot.png?raw=true "Noted")
+![Noted Screenshot](https://github.com/Amuodmi/Noted/blob/main/Develop/public/assets/NotedScreenShot.png "Noted")
 
 ## Contact
 
