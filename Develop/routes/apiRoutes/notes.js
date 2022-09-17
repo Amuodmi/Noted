@@ -2,8 +2,9 @@
 const router = require('express').Router();
 const fs = require('fs');
 const { notes } = require('../../db/db.json');
-const newNote = require('../../lib/notes');
 const { response } = require('express');
+const newNote = require('../../lib/notes');
+
 
 //this arrow function will get the notes from the db.json file, and return it to the index.js to render on the page
 router.get('/api/notes', (req, res) => {
