@@ -3,8 +3,8 @@ const router = require('express').Router();
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-const htmlRoutes = require('./routes/hmtlRoutes');
-const notesRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./Develop/routes/htmlRoutes');
+const notesRoutes = require('./Develop/routes/apiRoutes');
 
 
 
@@ -23,7 +23,6 @@ app.use(express.static('public'));
 
 
 //Use api routes
-app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 app.use(notesRoutes);
 

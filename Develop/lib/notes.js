@@ -1,6 +1,6 @@
 //need for Node functions, FS, Path, and database
 const fs = require('fs');
-const { notes } = require('../db.db.json');
+const { notes } = require('../db/db.json');
 const path = require('path');
 
 //a function that will create a new note
