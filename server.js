@@ -3,7 +3,10 @@ const router = require('express').Router();
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-const { notes } = require('./')
+const htmlRoutes = require('./routes/hmtlRoutes');
+const notesRoutes = require('./routes/apiRoutes');
+
+
 
 app.get('/db/db'), (req,res) => {
     res.send('data is connected')
@@ -21,6 +24,8 @@ app.use(express.static('public'));
 
 //Use api routes
 app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
+app.use(notesRoutes);
 
 
 //GET /notes should return the notes.html file
