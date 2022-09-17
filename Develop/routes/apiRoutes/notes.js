@@ -5,6 +5,7 @@ const { notes } = require('../../db/db.json');
 const newNote = require('../../lib/notes');
 const { response } = require('express');
 
+//this arrow function will get the notes from the db.json file, and return it to the index.js to render on the page
 router.get('/api/notes', (req, res) => {
     const result = notes;
     if (result){
@@ -15,4 +16,15 @@ router.get('/api/notes', (req, res) => {
     }
 });
 
+//arrow function will let the user add  a new note, it 
+//connects to the newNote function, and returns info to the index.js 
+//which will then render the info on the page
+router.post('/api/notes', (req, res) => {
+    req.body.id = notes.length.toString();
 
+    const note = newNote(req.body, notes);
+    res.json(note); 
+});
+
+
+module.exports = router;
