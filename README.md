@@ -1,1 +1,36 @@
 # Noted
+
+
+## Table Of Contents
+
+- [Description](#description)
+- [Usage](#usage)
+- [Links](#links)
+- [Contact](#contact)
+- [Licenses](#licenses)
+
+## Description
+
+This app can be used to add, edit, and keep track of your notes! On the left hand side there will be your stored notes. 
+
+## Usage
+
+Deployed link to site will soon be available.
+
+
+## Links
+
+GitHub Repo: https://github.com/Amuodmi/Noted
+
+Deployed website:  coming soon
+
+## Contact
+
+Get in touch with me on Github
+www.github.com/Amuodmi
+
+
+### Licenses
+[![License](https://img.shields.io/badge/License-Express-orange.svg)](https://opensource.org/licenses/Express)
+[![License](https://img.shields.io/badge/License-nodemon-green.svg)](https://opensource.org/licenses/nodemon)
+
