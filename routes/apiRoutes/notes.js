@@ -17,7 +17,7 @@ router.get('/api/notes', (req, res) => {
     }
 });
 
-//arrow function will let the user add  a new note, it 
+//arrow function will let the user add a new note, it 
 //connects to the newNote function, and returns info to the index.js 
 //which will then render the info on the page
 router.post('/api/notes', (req, res) => {
