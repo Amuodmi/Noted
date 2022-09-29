@@ -24,7 +24,7 @@ GitHub Repo: https://github.com/Amuodmi/Noted
 
 Deployed website:  [Noted](https://fierce-reef-93480.herokuapp.com/)
 
-Soon to be depolyed website image:
+Depolyed website images:
 
 ![NotedScreenShot](https://user-images.githubusercontent.com/104099393/193040132-ac4697cd-9de3-4ae7-ac91-bba3190840a9.png)
 
