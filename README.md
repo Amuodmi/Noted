@@ -22,12 +22,14 @@ Deployed link to site will soon be available.
 
 GitHub Repo: https://github.com/Amuodmi/Noted
 
-Deployed website:  coming soon
+Deployed website:  [Noted](https://fierce-reef-93480.herokuapp.com/)
 
 Soon to be depolyed website image:
 
+![NotedScreenShot](https://user-images.githubusercontent.com/104099393/193040132-ac4697cd-9de3-4ae7-ac91-bba3190840a9.png)
 
-![Noted Screenshot](https://github.com/Amuodmi/Noted/blob/main/Develop/public/assets/NotedScreenShot.png "Noted")
+![Noted Screenshot](https://user-images.githubusercontent.com/104099393/193039986-e6e73c95-2678-46ec-bdea-f7c37ddf3586.png)
+
 
 ## Contact
 
