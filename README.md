@@ -15,7 +15,7 @@ This app can be used to add, edit, and keep track of your notes! On the left han
 
 ## Usage
 
-Deployed link to site will soon be available.
+Follow the deployed website link below, and use this site to keep track of whatever you need!  You are able to add, edit, and delete your notes. 
 
 
 ## Links
