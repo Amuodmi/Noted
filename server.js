@@ -9,9 +9,9 @@ const notesRoutes = require('./routes/apiRoutes');
 
 
 
-app.get('/db/db'), (req,res) => {
-    res.send('data is connected')
-}
+// app.get('/db/db'), (req,res) => {
+//     res.send('data is connected')
+// }
 
 //GET /api/notes should read the db.json file and return all saved notes as JSON
 app.use(express.json());
@@ -24,8 +24,9 @@ app.use(express.static('public'));
 
 
 //Use api routes
+app.use('/api', notesRoutes);
 app.use('/', htmlRoutes);
-app.use(notesRoutes);
+
 
 
 //GET /notes should return the notes.html file

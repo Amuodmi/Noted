@@ -22,7 +22,7 @@ const hide = (elem) => {
   elem.style.display = 'none';
 };
 
-// activeNote is used to keep track of the note in the textarea
+// activeNote is used to keep track of the note in the text area
 let activeNote = {};
 
 const getNotes = () =>
@@ -118,7 +118,9 @@ const handleRenderSaveBtn = () => {
 
 // Render the list of note titles
 const renderNoteList = async (notes) => {
+  console.log("what is notes response here", notes);
   let jsonNotes = await notes.json();
+  console.log("what is notes data here", jsonNotes);
   if (window.location.pathname === '/notes') {
     noteList.forEach((el) => (el.innerHTML = ''));
   }

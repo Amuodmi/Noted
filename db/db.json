@@ -1,6 +1,28 @@
-[
+{
+  "notes": [
     {
-        "title":"Test Title",
-        "text":"Test text"
+      "title": "Test Title",
+      "text": "Test text"
+    },
+    {
+      "title": "kjhjkh",
+      "text": "kjhkj",
+      "id": "1"
+    },
+    {
+      "title": "lkdsjfads",
+      "text": "sfd",
+      "id": "2"
+    },
+    {
+      "title": "lksjf",
+      "text": "sdklf",
+      "id": "3"
+    },
+    {
+      "title": "horsejizz",
+      "text": "anders wants me to type this",
+      "id": "4"
     }
-]
+  ]
+}
